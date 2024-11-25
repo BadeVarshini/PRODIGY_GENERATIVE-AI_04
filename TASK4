@@ -1,0 +1,252 @@
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Web Developer Portfolio showcasing skills, projects, and accomplishments.">
+    <title>Your Name | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Hi, I'm [Your Name]</h1>
+            <p>I'm a passionate Web Developer focused on building engaging and interactive websites.</p>
+            <img src="images/profile.jpg" alt="Your Photo" class="profile-photo">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="text">
+                <p>Hello! I'm [Your Name], a Web Developer with a strong passion for creating clean, efficient, and visually appealing web applications. I specialize in front-end development but am proficient in full-stack development as well.</p>
+                <p>I hold a degree in [Your Degree] from [Your University], and have gained hands-on experience working on several personal and professional projects.</p>
+                <p>When I'm not coding, I enjoy [Your Hobbies] and exploring new web technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-content">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <p>Building accessible and semantically correct web pages.</p>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <p>Creating responsive layouts and beautiful designs using CSS.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Building interactive features and improving user experiences with JavaScript.</p>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <p>Building dynamic web applications using React.js and its ecosystem.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-content">
+            <div class="project">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A personal portfolio website that showcases my skills and projects.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2: E-commerce Website</h3>
+                <p>An e-commerce site built with React and Node.js.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me for any inquiries or collaboration opportunities!</p>
+        <ul>
+            <li>Email: your.email@example.com</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile">Your LinkedIn</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername">Your GitHub</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+Style.css
+/* General reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section {
+    padding: 40px;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Home Section */
+#home {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    max-width: 700px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
